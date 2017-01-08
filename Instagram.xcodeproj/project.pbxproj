@@ -12,6 +12,11 @@
 		7E1C37DF1E226F6F00C48DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C37DD1E226F6F00C48DAD /* Main.storyboard */; };
 		7E1C37E11E226F6F00C48DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C37E01E226F6F00C48DAD /* Assets.xcassets */; };
 		7E1C37E41E226F6F00C48DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C37E21E226F6F00C48DAD /* LaunchScreen.storyboard */; };
+		7E1C37EC1E2270AB00C48DAD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C37EB1E2270AB00C48DAD /* HomeViewController.swift */; };
+		7E1C37EE1E2270BD00C48DAD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C37ED1E2270BD00C48DAD /* LoginViewController.swift */; };
+		7E1C37F01E2270D600C48DAD /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C37EF1E2270D600C48DAD /* ImageSelectViewController.swift */; };
+		7E1C37F21E2270E500C48DAD /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C37F11E2270E500C48DAD /* PostViewController.swift */; };
+		7E1C37F41E22710000C48DAD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C37F31E22710000C48DAD /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		7E1C37E01E226F6F00C48DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E1C37E31E226F6F00C48DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E1C37E51E226F6F00C48DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1C37EB1E2270AB00C48DAD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7E1C37ED1E2270BD00C48DAD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7E1C37EF1E2270D600C48DAD /* ImageSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		7E1C37F11E2270E500C48DAD /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		7E1C37F31E22710000C48DAD /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				7E1C37E01E226F6F00C48DAD /* Assets.xcassets */,
 				7E1C37E21E226F6F00C48DAD /* LaunchScreen.storyboard */,
 				7E1C37E51E226F6F00C48DAD /* Info.plist */,
+				7E1C37EB1E2270AB00C48DAD /* HomeViewController.swift */,
+				7E1C37ED1E2270BD00C48DAD /* LoginViewController.swift */,
+				7E1C37EF1E2270D600C48DAD /* ImageSelectViewController.swift */,
+				7E1C37F11E2270E500C48DAD /* PostViewController.swift */,
+				7E1C37F31E22710000C48DAD /* SettingViewController.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1C37F21E2270E500C48DAD /* PostViewController.swift in Sources */,
+				7E1C37EE1E2270BD00C48DAD /* LoginViewController.swift in Sources */,
 				7E1C37DC1E226F6F00C48DAD /* ViewController.swift in Sources */,
 				7E1C37DA1E226F6F00C48DAD /* AppDelegate.swift in Sources */,
+				7E1C37F01E2270D600C48DAD /* ImageSelectViewController.swift in Sources */,
+				7E1C37F41E22710000C48DAD /* SettingViewController.swift in Sources */,
+				7E1C37EC1E2270AB00C48DAD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
